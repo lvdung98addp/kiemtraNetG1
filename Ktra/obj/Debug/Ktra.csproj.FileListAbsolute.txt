@@ -12,3 +12,17 @@ C:\Users\Administrator\Desktop\Ktra\Ktra\obj\Debug\Ktra.pdb
 C:\Users\Administrator\Desktop\Ktra\Ktra\bin\Debug\Data\nhom.info
 C:\Users\Administrator\Desktop\Ktra\Ktra\obj\Debug\Ktra.addnhom.resources
 C:\Users\Administrator\Desktop\Ktra\Ktra\obj\Debug\Ktra.addlienlac.resources
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\bin\Debug\Data\lienlac.info
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\bin\Debug\Data\nhom.info
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\bin\Debug\Ktra.exe.config
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\bin\Debug\Ktra.exe
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\bin\Debug\Ktra.pdb
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.addlienlac.resources
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.addnhom.resources
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.Form1.resources
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.Properties.Resources.resources
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.csproj.GenerateResource.cache
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.exe
+C:\Users\admin\Downloads\Ktra1\Ktra\Ktra\obj\Debug\Ktra.pdb

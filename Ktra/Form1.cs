@@ -14,6 +14,7 @@ namespace Ktra
 {
     public partial class Form1 : Form
     {
+        List<lienlac> listlienlacvariable = new List<lienlac>();
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +36,7 @@ namespace Ktra
                 //dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value
                 var temp = Convert.ToString(dataGridView1.Rows[0].Cells[0].Value);
                 listlienlac = lienlacService.GetListlienlac(Utils.lienlacPathFile, temp);
+                listlienlacvariable = listlienlac;
                 dataGridView2.AutoGenerateColumns = false;
                 bindingSourcelienlac.DataSource = listlienlac;
                 dataGridView2.DataSource = bindingSourcelienlac;
@@ -116,6 +118,7 @@ namespace Ktra
             //dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value
             var temp = Convert.ToString(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value);
             listlienlac = lienlacService.GetListlienlac(Utils.lienlacPathFile, temp);
+            listlienlacvariable = listlienlac;
             dataGridView2.AutoGenerateColumns = false;
             bindingSourcelienlac.DataSource = listlienlac;
             dataGridView2.DataSource = bindingSourcelienlac;
@@ -173,6 +176,24 @@ namespace Ktra
             var nhom = bindingSourcenhom.Current as nhom;
             var addlienlac = new addlienlac(nhom.id,this);
             addlienlac.ShowDialog();
+        }
+
+        private void tbTimKiem_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            List<lienlac> listlienlac = new List<lienlac>();
+            foreach(var i in listlienlacvariable)
+            {
+                if (i.name.Contains(tbTimKiem.Text) || i.emali.Contains(tbTimKiem.Text) || i.sdt.Contains(tbTimKiem.Text))
+                    listlienlac.Add(i);
+            }
+            dataGridView2.AutoGenerateColumns = false;
+            bindingSourcelienlac.DataSource = listlienlac;
+            dataGridView2.DataSource = bindingSourcelienlac;
+        }
+
+        private void TbTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

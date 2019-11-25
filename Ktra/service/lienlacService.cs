@@ -19,7 +19,6 @@ namespace Ktra.service
                 var lines = File.ReadAllLines(path);
                 foreach (var line in lines)
                 {
-                    //Line: ma#tuNam#denNam#noiHoc#masv
                     var lienlac1 = lienlac.Parse(line);
                     if (lienlac1.idnhom == idnhom)
                         rs.Add(lienlac1);

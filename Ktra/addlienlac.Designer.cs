@@ -82,7 +82,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "đại chỉ";
+            this.label5.Text = "địa chỉ";
             // 
             // tbten
             // 
@@ -90,6 +90,7 @@
             this.tbten.Name = "tbten";
             this.tbten.Size = new System.Drawing.Size(100, 20);
             this.tbten.TabIndex = 5;
+            this.tbten.TextChanged += new System.EventHandler(this.tbten_TextChanged);
             // 
             // tbemail
             // 

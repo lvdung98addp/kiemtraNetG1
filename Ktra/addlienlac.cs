@@ -46,9 +46,16 @@ namespace Ktra
             // form1.dataGridView1.DataSource = form1.bindingSourcenhom;
             this.Close();
             Form1 thu = new Form1();
-            thu.Refresh();
-            Form1.Invalidate();
-            Form1.Refresh();
+            //thu.Refresh();
+            //Form1.Invalidate();
+            //Form1.Refresh();
+            thu.Close();
+            thu.Show();
+        }
+
+        private void tbten_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
